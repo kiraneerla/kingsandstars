@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kings & Stars - Telugu Movie Reviews</title>
+</head>
+<body>
+  <!-- Admin Button -->
+  <button id="adminBtn" class="admin-btn">🔐 User Login</button>
+  
+  <!-- Admin Panel -->
+  <div id="adminPanel" class="admin-panel hidden">
+    <div class="admin-content">
+      <h2>Admin Dashboard</h2>
+      <button id="closeAdmin" class="close-btn">&times;</button>
+      
+      <div id="loginForm">
+        <h3>Login</h3>
+        <input type="password" id="adminPassword" placeholder="Password">
+        <button id="loginBtn">Login</button>
+        <p class="hint">Password: admin123</p>
+      </div>
+      
+      <div id="dashboard" class="hidden">
+        <h3>Upload Movie Review</h3>
+        <form id="adminForm">
+          <input type="text" id="adminMovieName" placeholder="Movie Name" required>
+          <input type="text" id="adminMoviePoster" placeholder="Poster URL">
+          <input type="number" id="adminRating" placeholder="Rating (1-5)" min="1" max="5" step="0.5" required>
+          <input type="text" id="adminGenre" placeholder="Genre">
+          <input type="text"
+                           <input type="text" id="adminOTT" placeholder="OTT Platform (e.g., Netflix, Aha, Zee5)">id="adminCast" placeholder="Cast">
+          <input type="text" id="adminCast" placeholder="Cast">
+          <input type="text" id="adminOTT" placeholder="OTT Platform (e.g., Netflix, Aha, Zee5)">          <button type="submit">Publish</button>
+        </form>
+        
+        <h3>Manage Reviews</h3>
+        <div id="adminReviewsList"></div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Main Website -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <h1><span class="star">⭐</span> KINGS & STARS</h1>
+        <p class="tagline">Your Ultimate Telugu Cinema Hub</p>
+      </div>
+    </div>
+  </header>
+  
+  <nav class="main-nav">
+    <div class="container">
+      <a href="#home" class="active">HOME</a>
+      <a href="#reviews">REVIEWS</a>
+      <a href="#latest">LATEST</a>
+      <a href="#gallery">GALLERY</a>
+      <a href="#about">ABOUT</a>
+    </div>
+  </nav>
+  
+  <div class="ott-banner">
+    <div class="container">
+      <div class="ott-logos">
+OTT REVIEWS:        <div class="logo-item">Netflix</div>
+        <div class="logo-item">Prime Video</div>
+        <div class="logo-item">Hotstar</div>
+        <div class="logo-item">Aha</div>
+        <div class="logo-item">Zee5</div>
+      </div>
+    </div>
+  </div>
+  
+  <main class="container">
+    <section id="reviews" class="reviews-section">
+      <h2 class="section-title">Latest Movie Reviews</h2>
+      <div id="reviewsGrid" class="reviews-grid"></div>
+    </section>
+  </main>
+  
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2025 Kings & Stars | Premium Telugu Movie Reviews</p>
+      <p>Follow us on social media for latest updates!</p>
+    </div>
+  </footer>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
